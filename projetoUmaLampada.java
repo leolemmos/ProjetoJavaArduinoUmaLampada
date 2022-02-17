@@ -9,7 +9,7 @@ void setup() {
   digitalWrite(SinalRele, HIGH);    // Inicia Pino Digital 2 em HIGH
   Serial.begin(9600);               // Inicia comunicação em 9600
 }
- 
+
 void loop() {
  
   if (Serial.available()) {
